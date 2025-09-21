@@ -1,9 +1,9 @@
 include(FetchContent)
 # Динамически подключаем библиотеку GoogleTest из интернета
 FetchContent_Declare(
-googletest
-GIT_REPOSITORY https://github.com/google/googletest.git
-GIT_TAG release-1.12.1
+ googletest
+ GIT_REPOSITORY https://github.com/google/googletest.git
+ GIT_TAG release-1.12.1
 )
 FetchContent_MakeAvailable(googletest)
 # Создаем исполняемый файл для тестов
